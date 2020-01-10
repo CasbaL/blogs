@@ -1,10 +1,10 @@
-language: node_js
-node_js:
-  - lts/*
-install:
-  - yarn install # npm ci
-script:
-  - yarn build # npm run docs:build
+# language: node_js
+# node_js:
+#   - lts/*
+# install:
+#   - yarn install # npm ci
+# script:
+#   - yarn build
 
 deploy:
   provider: pages
