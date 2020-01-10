@@ -10,7 +10,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   local_dir: docs/.vuepress/dist
-  github_token: 87a3be2f7fde58d918b65b932b6854f53792eb25  # Set in the settings page of your repository, as a secure variable
+  github_token: $ACCESS_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
     branch: master
