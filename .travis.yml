@@ -13,5 +13,5 @@ deploy:
   github_token: $ACESSS_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   on:
-    branch: master
-  target_branch: https://github.com/CasbaL/casbal.github.io.git
+    branch: blogs
+  target_branch: master-test
