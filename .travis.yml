@@ -14,3 +14,4 @@ deploy:
   keep_history: true
   on:
     branch: master
+  target_branch: https://github.com/CasbaL/casbal.github.io.git
