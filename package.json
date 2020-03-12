@@ -7,15 +7,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev",
-    "build": "node updateReadme.js&&vuepress build"
+    "update_readme": "node updateReadme.js",
+    "build": "yarn update_readme&&vuepress build",
+    "git-up": "yarn update_readme&&git add .&&git commit -m 'update readme!';"
   },
   "devDependencies": {
-    "husky": "^4.2.3",
     "vuepress": "^1.2.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn build"
-    }
   }
 }
