@@ -7,9 +7,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev",
-    "build": "vuepress build"
+    "build": "node updateReadme.js&&vuepress build"
   },
   "devDependencies": {
     "vuepress": "^1.2.0"
-  }
+  },
+  "pre-commit": ["build"]
 }
