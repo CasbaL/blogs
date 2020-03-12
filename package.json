@@ -9,7 +9,7 @@
     "dev": "vuepress dev",
     "update_readme": "node updateReadme.js",
     "build": "yarn update_readme&&vuepress build",
-    "git-up": "yarn update_readme&&git add .&&git commit -m 'update readme!';"
+    "git-up": "yarn update_readme&&git add .&&git commit -m 'update readme!'&&git push"
   },
   "devDependencies": {
     "vuepress": "^1.2.0"
