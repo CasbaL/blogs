@@ -10,7 +10,14 @@
     "build": "node updateReadme.js&&vuepress build"
   },
   "devDependencies": {
+    "husky": "^4.2.3",
     "vuepress": "^1.2.0"
   },
-  "pre-commit": ["build"]
+  "husky": {
+    "hooks": {
+      "pre-commit": [
+        "build"
+      ]
+    }
+  }
 }
