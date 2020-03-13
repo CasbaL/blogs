@@ -49,4 +49,4 @@ vuepress自带热更新，然后你就可以愉快地写文章了
     readme.md 当做目录，最终会打包成index.html      
 ok~ Vuepress 使用起来确实简单方便     
           
-[部署Github page看这里](./2020-01-10.md)
+[部署Github page看这里](./集成%20Travis%20CI%20自动部署到%20GitHub%20page.md)
