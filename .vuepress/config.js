@@ -6,5 +6,12 @@ module.exports = {
     lineNumbers: true
   },
   title: '随手记',
-  description: 'Just playing around'
+  description: 'Just playing around',
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@imgs': 'imgs/'
+      }
+    }
+  }
 };

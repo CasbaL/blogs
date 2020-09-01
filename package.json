@@ -6,7 +6,7 @@
   "author": "casbal <yygf94half@163.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev",
+    "dev": "yarn update_readme && vuepress dev",
     "update_readme": "node updateReadme.js",
     "build": "yarn update_readme&&vuepress build",
     "git-up": "yarn update_readme&&git add .&&git commit -m 'update readme!'&&git push"
